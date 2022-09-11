@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="select hide">Selected</div>
+    <div class="bigboy">
+      <button onclick="selectDoor(icons[0])" class="block icon1 loser">
+        🚪
+      </button>
+      <button onclick="selectDoor(icons[1])" class="block icon2 loser">
+        🚪
+      </button>
+      <button onclick="selectDoor(icons[2])" class="block icon3 loser">
+        🚪
+      </button>
+    </div>
+    <div class="container">
+      <div class="center">
+        <button
+          type="button butt1"
+          class="button"
+          disabled
+          onclick="chooseDoor()"
+        >
+          Choose Door
+        </button>
+        <button
+          type="button butt2"
+          class="button"
+          disabled
+          onclick="window.location.reload();"
+        >
+          Play Again
+        </button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
